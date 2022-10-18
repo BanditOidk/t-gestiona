@@ -1,0 +1,81 @@
+header{
+    position: fixed;
+        width: 100%;
+        background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container img{
+    width: 85%;
+    height: auto;
+    padding: 15px 25px;
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px ;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px ;
+    font-weight: bold;
+    color: rgb(0, 0, 0);;
+    font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px ;
+
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: rgb(255, 217, 0) ;
+}
+
+
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+        background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    .container img{
+        width: 35%;
+        height: auto;
+        padding: 25px 35px;
+    }
+
+    
+    
+}
